@@ -1,5 +1,5 @@
 @startuml
-folder folder [
+folder folder　 {
 This is an <b>folder
 ----
 You can use separator
@@ -7,9 +7,9 @@ You can use separator
 of different kind
 ....
 and style
-]
+}
 
-node node [
+node node {
 This is a <b>node
 ----
 You can use separator
@@ -17,9 +17,9 @@ You can use separator
 of different kind
 ....
 and style
-]
+}
 
-database database [
+database database {
 This is a <b>database
 ----
 You can use separator
@@ -27,9 +27,9 @@ You can use separator
 of different kind
 ....
 and style
-]
+}
 
-usecase usecase [
+usecase usecase {
 This is a <b>usecase
 ----
 You can use separator
@@ -37,6 +37,6 @@ You can use separator
 of different kind
 ....
 and style
-]
+}
 
 @enduml
