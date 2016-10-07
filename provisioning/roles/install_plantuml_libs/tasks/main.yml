@@ -1,0 +1,5 @@
+- name: install graphviz
+  yum: name=graphviz state=latest
+
+- name: install doxygen
+  yum: name=doxygen state=latest

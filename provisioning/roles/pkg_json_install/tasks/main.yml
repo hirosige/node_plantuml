@@ -1,0 +1,3 @@
+- name: npm package.json based install
+  npm: path=/vagrant
+

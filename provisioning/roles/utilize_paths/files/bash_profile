@@ -1,0 +1,13 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+VAGRANT=/vagrant
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$VAGRANT/vendor/bin:$VAGRANT/node_modules/.bin
+
+export PATH

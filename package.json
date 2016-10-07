@@ -1,0 +1,18 @@
+{
+  "name": "SARMS UML Documents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hiroshige Negishi ARMS Thailand",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plantuml": "0.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

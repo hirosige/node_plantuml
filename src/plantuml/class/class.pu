@@ -1,0 +1,8 @@
+@startuml
+class Car
+
+Driver - Car : drives >
+Car *- Wheel : have 14 >
+Car -- Person : < owns
+
+@enduml

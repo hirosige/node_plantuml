@@ -1,0 +1,11 @@
+---
+- hosts:  all
+  become: yes
+
+  roles:
+   - { role: init                   }
+   - { role: repo_epel              }
+   - { role: install_node           }
+   - { role: install_gulp          }
+   - { role: install_java          }
+   - { role: install_plantuml_libs  }
