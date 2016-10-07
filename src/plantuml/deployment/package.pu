@@ -1,0 +1,30 @@
+@startuml
+artifact Foo1 {
+  folder Foo2
+}
+
+folder Foo3 {
+  artifact Foo4
+}
+
+frame Foo5 {
+  database Foo6
+}
+
+node Foo7 {
+ cloud Foo8
+}
+
+cloud Foo9 {
+  frame Foo10
+}
+
+database Foo11  {
+  storage Foo12
+}
+
+storage Foo13 {
+  storage Foo14
+}
+
+@enduml
