@@ -1,6 +1,6 @@
 @startuml
 
-:First Actor:
+:First Actor23:
 :Another\nactor: as Men2
 actor Men3
 actor :Last actor: as Men4

@@ -1,0 +1,16 @@
+@startuml
+(*)  --> "check input"
+
+If "input is verbose" then
+    If "input is verbose again" then
+        --> [Yes] "turn on verbosity"
+        --> "run command"
+    else
+        --> [No] "run command"
+    Endif
+else
+    --> [No] "run command"
+Endif
+
+-->(*)
+@enduml

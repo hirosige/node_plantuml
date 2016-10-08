@@ -1,0 +1,11 @@
+@startuml
+abstract class Creator
+abstract class Product
+class ConcreteCreator
+class ConcreteProduct
+
+Creator - Product : creates >
+ConcreteCreator - ConcreteProduct : creates >
+Creator <|.. ConcreteCreator
+Product <|.. ConcreteProduct
+@enduml
