@@ -88,14 +88,6 @@ gulp.task 'watch', ->
   gulp.src 'gulpfile.coffee'
 
 gulp.task 'default', [
-  diag_name_1 + '_uml',
-  diag_name_2 + '_uml',
-  diag_name_3 + '_uml',
-  diag_name_4 + '_uml',
-  diag_name_5 + '_uml',
-  diag_name_6 + '_uml',
-  diag_name_7 + '_uml',
-  diag_name_8 + '_uml',
-  'webserver',
+  'webserver'
   'watch'
 ]

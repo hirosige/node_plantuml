@@ -1,7 +1,7 @@
 @startuml
-(*) --> "Initializations1"
+(*) --> "Initializations"
 
-if "Some Test365" then
+if "Some Test365/24-2" then
   -->[true] "Some Activity"
   --> "Another activity"
   -right-> (*)
