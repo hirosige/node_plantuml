@@ -87,6 +87,17 @@ gulp.task 'watch', ->
   gulp.watch "./src/plantuml/" + diag_name_8 + "/**/*.pu", [ diag_name_8 + "_uml" ]
   gulp.src 'gulpfile.coffee'
 
+gulp.task 'initial_install', [
+  diag_name_1 + '_uml',
+  diag_name_2 + '_uml',
+  diag_name_3 + '_uml',
+  diag_name_4 + '_uml',
+  diag_name_5 + '_uml',
+  diag_name_6 + '_uml',
+  diag_name_7 + '_uml',
+  diag_name_8 + '_uml'
+]
+
 gulp.task 'default', [
   'webserver'
   'watch'

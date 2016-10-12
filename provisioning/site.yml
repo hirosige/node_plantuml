@@ -9,3 +9,4 @@
    - { role: install_gulp           }
    - { role: install_java           }
    - { role: install_plantuml_libs  }
+   - { role: pkg_json_install       }
